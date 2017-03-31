@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		704842281E8E2AD20006D1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842271E8E2AD20006D1B0 /* AppDelegate.swift */; };
-		7048422A1E8E2AD20006D1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842291E8E2AD20006D1B0 /* ViewController.swift */; };
 		7048422D1E8E2AD20006D1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7048422B1E8E2AD20006D1B0 /* Main.storyboard */; };
 		7048422F1E8E2AD30006D1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7048422E1E8E2AD30006D1B0 /* Assets.xcassets */; };
 		704842321E8E2AD30006D1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704842301E8E2AD30006D1B0 /* LaunchScreen.storyboard */; };
 		7048423D1E8E2AD40006D1B0 /* SoolyCitySelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048423C1E8E2AD40006D1B0 /* SoolyCitySelectorTests.swift */; };
 		704842481E8E2AD50006D1B0 /* SoolyCitySelectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842471E8E2AD50006D1B0 /* SoolyCitySelectorUITests.swift */; };
+		7048425C1E8E2B5C0006D1B0 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 704842551E8E2B5C0006D1B0 /* cities.plist */; };
+		7048425E1E8E2B5C0006D1B0 /* CitySelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842571E8E2B5C0006D1B0 /* CitySelectorViewController.swift */; };
+		7048425F1E8E2B5C0006D1B0 /* CurrentCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842581E8E2B5C0006D1B0 /* CurrentCityTableViewCell.swift */; };
+		704842601E8E2B5C0006D1B0 /* HotCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842591E8E2B5C0006D1B0 /* HotCityTableViewCell.swift */; };
+		704842611E8E2B5C0006D1B0 /* RecentCitiesableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048425A1E8E2B5C0006D1B0 /* RecentCitiesableViewCell.swift */; };
+		704842621E8E2B5C0006D1B0 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048425B1E8E2B5C0006D1B0 /* ResultTableViewController.swift */; };
+		704842641E8E2BA70006D1B0 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842631E8E2BA70006D1B0 /* Header.swift */; };
+		704842661E8E2C080006D1B0 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842651E8E2C080006D1B0 /* UIColor+Hex.swift */; };
+		704842681E8E2C8C0006D1B0 /* String+SoolyCitySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704842671E8E2C8C0006D1B0 /* String+SoolyCitySelector.swift */; };
+		7048426A1E8E2F630006D1B0 /* hotCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 704842691E8E2F630006D1B0 /* hotCities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		704842241E8E2AD10006D1B0 /* SoolyCitySelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolyCitySelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704842271E8E2AD20006D1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		704842291E8E2AD20006D1B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7048422C1E8E2AD20006D1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7048422E1E8E2AD30006D1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704842311E8E2AD30006D1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		704842431E8E2AD40006D1B0 /* SoolyCitySelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyCitySelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		704842471E8E2AD50006D1B0 /* SoolyCitySelectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolyCitySelectorUITests.swift; sourceTree = "<group>"; };
 		704842491E8E2AD60006D1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704842551E8E2B5C0006D1B0 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		704842571E8E2B5C0006D1B0 /* CitySelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySelectorViewController.swift; sourceTree = "<group>"; };
+		704842581E8E2B5C0006D1B0 /* CurrentCityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentCityTableViewCell.swift; sourceTree = "<group>"; };
+		704842591E8E2B5C0006D1B0 /* HotCityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotCityTableViewCell.swift; sourceTree = "<group>"; };
+		7048425A1E8E2B5C0006D1B0 /* RecentCitiesableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentCitiesableViewCell.swift; sourceTree = "<group>"; };
+		7048425B1E8E2B5C0006D1B0 /* ResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		704842631E8E2BA70006D1B0 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		704842651E8E2C080006D1B0 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		704842671E8E2C8C0006D1B0 /* String+SoolyCitySelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SoolyCitySelector.swift"; sourceTree = "<group>"; };
+		704842691E8E2F630006D1B0 /* hotCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = hotCities.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +116,13 @@
 			isa = PBXGroup;
 			children = (
 				704842271E8E2AD20006D1B0 /* AppDelegate.swift */,
-				704842291E8E2AD20006D1B0 /* ViewController.swift */,
-				7048422B1E8E2AD20006D1B0 /* Main.storyboard */,
-				7048422E1E8E2AD30006D1B0 /* Assets.xcassets */,
+				704842571E8E2B5C0006D1B0 /* CitySelectorViewController.swift */,
+				7048425B1E8E2B5C0006D1B0 /* ResultTableViewController.swift */,
+				7048426D1E8E30E40006D1B0 /* Cell */,
+				7048426C1E8E30C10006D1B0 /* Extension */,
+				7048426B1E8E30A20006D1B0 /* Resource */,
 				704842301E8E2AD30006D1B0 /* LaunchScreen.storyboard */,
-				704842331E8E2AD30006D1B0 /* Info.plist */,
+				7048422B1E8E2AD20006D1B0 /* Main.storyboard */,
 			);
 			path = SoolyCitySelector;
 			sourceTree = "<group>";
@@ -123,6 +143,37 @@
 				704842491E8E2AD60006D1B0 /* Info.plist */,
 			);
 			path = SoolyCitySelectorUITests;
+			sourceTree = "<group>";
+		};
+		7048426B1E8E30A20006D1B0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				704842631E8E2BA70006D1B0 /* Header.swift */,
+				704842551E8E2B5C0006D1B0 /* cities.plist */,
+				704842691E8E2F630006D1B0 /* hotCities.plist */,
+				704842331E8E2AD30006D1B0 /* Info.plist */,
+				7048422E1E8E2AD30006D1B0 /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		7048426C1E8E30C10006D1B0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				704842651E8E2C080006D1B0 /* UIColor+Hex.swift */,
+				704842671E8E2C8C0006D1B0 /* String+SoolyCitySelector.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		7048426D1E8E30E40006D1B0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				704842591E8E2B5C0006D1B0 /* HotCityTableViewCell.swift */,
+				7048425A1E8E2B5C0006D1B0 /* RecentCitiesableViewCell.swift */,
+				704842581E8E2B5C0006D1B0 /* CurrentCityTableViewCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +244,7 @@
 				TargetAttributes = {
 					704842231E8E2AD10006D1B0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7523YW79F8;
 						ProvisioningStyle = Automatic;
 					};
 					704842371E8E2AD30006D1B0 = {
@@ -235,6 +287,8 @@
 				704842321E8E2AD30006D1B0 /* LaunchScreen.storyboard in Resources */,
 				7048422F1E8E2AD30006D1B0 /* Assets.xcassets in Resources */,
 				7048422D1E8E2AD20006D1B0 /* Main.storyboard in Resources */,
+				7048426A1E8E2F630006D1B0 /* hotCities.plist in Resources */,
+				7048425C1E8E2B5C0006D1B0 /* cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7048422A1E8E2AD20006D1B0 /* ViewController.swift in Sources */,
+				704842621E8E2B5C0006D1B0 /* ResultTableViewController.swift in Sources */,
+				704842661E8E2C080006D1B0 /* UIColor+Hex.swift in Sources */,
+				704842611E8E2B5C0006D1B0 /* RecentCitiesableViewCell.swift in Sources */,
+				7048425E1E8E2B5C0006D1B0 /* CitySelectorViewController.swift in Sources */,
+				704842641E8E2BA70006D1B0 /* Header.swift in Sources */,
+				704842681E8E2C8C0006D1B0 /* String+SoolyCitySelector.swift in Sources */,
+				7048425F1E8E2B5C0006D1B0 /* CurrentCityTableViewCell.swift in Sources */,
+				704842601E8E2B5C0006D1B0 /* HotCityTableViewCell.swift in Sources */,
 				704842281E8E2AD20006D1B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
 				INFOPLIST_FILE = SoolyCitySelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.SoolyCitySelector";
@@ -424,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
 				INFOPLIST_FILE = SoolyCitySelector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.SoolyCitySelector";
